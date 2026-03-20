@@ -1,0 +1,9 @@
+baseURL = 'https://pascaljorratt.github.io/'
+locale = 'en-us'
+title = 'My New Hugo Project'
+theme = 'not-much'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+    
