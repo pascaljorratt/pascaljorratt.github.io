@@ -1,0 +1,125 @@
+---
+title: "peliculas"
+output: rmarkdown::github_document
+date: "2026-04-10"
+draft: false
+---
+
+```{r setup, include=T}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(stringr)
+library(ggplot2)
+library(forcats)
+library(RColorBrewer)
+library(scales)
+
+# Parámetros
+input_csv <- "~/Documentos/peliculas_chilenas_detalladas.csv"
+top_k <- 8
+plot_file <- "generos_count_por_ano_facets_area_6x2_custom.png"
+
+# Cargar y filtrar datos base
+df <- read_csv(input_csv, show_col_types = FALSE) %>%
+  filter(!is.na(release_year) & release_year >= 1990)
+
+# Expandir géneros por fila (una fila por película x género)
+df_genres <- df %>%
+  filter(!is.na(genres) & nzchar(genres)) %>%
+  mutate(release_year = as.integer(release_year)) %>%
+  separate_rows(genres, sep = ",\\s*") %>%
+  mutate(genres = str_trim(genres))
+
+# Conteos por año y género
+counts <- df_genres %>%
+  group_by(release_year, genres) %>%
+  summarise(n = n(), .groups = "drop")
+
+# Top K géneros por total absoluto (sobre contribuciones por género)
+top_genres <- counts %>%
+  group_by(genres) %>%
+  summarise(total = sum(n), .groups = "drop") %>%
+  arrange(desc(total)) %>%
+  slice_head(n = top_k) %>%
+  pull(genres)
+
+# Preparar datos para el gráfico (rellenar años faltantes)
+plot_data <- counts %>%
+  filter(genres %in% top_genres)
+
+years_seq <- seq(min(plot_data$release_year, na.rm = TRUE), max(plot_data$release_year, na.rm = TRUE))
+plot_data <- plot_data %>%
+  complete(genres, release_year = years_seq, fill = list(n = 0)) %>%
+  arrange(genres, release_year)
+
+# Palette
+palette_colors <- setNames(
+  brewer.pal(n = max(3, length(top_genres)), name = "Paired")[1:length(top_genres)],
+  top_genres
+)
+
+# Gráfico: facetas por género (área + línea + puntos)
+p <- ggplot(plot_data, aes(x = release_year, y = n, group = genres)) +
+  geom_ribbon(aes(ymin = 0, ymax = n, fill = genres), alpha = 0.6, color = NA) +
+  geom_line(aes(color = genres), size = 0.6) +
+  geom_point(aes(color = genres), size = 0.8) +
+  facet_wrap(~ fct_reorder(genres, -as.numeric(factor(genres))), ncol = 2) +
+  scale_fill_manual(values = palette_colors, guide = "none") +
+  scale_color_manual(values = palette_colors, guide = "none") +
+  scale_x_continuous(breaks = scales::pretty_breaks(8)) +
+  labs(x = "Año", y = "Número de películas", title = "Número de Películas Chilenas por Género") +
+  theme(
+    panel.background = element_rect(fill = "white", colour = NA),
+    plot.background = element_rect(fill = "white", colour = NA),
+    strip.background = element_rect(fill = "white", colour = NA),
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.line = element_line(color = "black"),
+    strip.text = element_text(face = "bold", size = 16),
+    axis.title = element_text(size = 14),
+    axis.text = element_text(size = 12),
+    legend.position = "none",
+    plot.title = element_text(size = 18, face = "bold")
+  )
+
+# Mostrar y guardar gráfico
+print(p)
+ggsave(plot_file, p, width = 10, height = 14, dpi = 300)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+# total de películas únicas (entre las que tienen género y año válido)
+df_titles <- df %>%
+  filter(!is.na(genres) & nzchar(genres) & !is.na(release_year)) 
+
+# Ajusta nombre de columna de título si tu columna no se llama "Título"
+title_col <- if ("Título" %in% names(df_titles)) "Título" else if ("title" %in% names(df_titles)) "title" else stop("Columna de título no encontrada")
+
+total_peliculas <- n_distinct(df_titles[[title_col]])
+
+# Reusar df_genres (expandido) para calculos por género
+avg_by_genre_simple <- df_genres %>%
+  group_by(genres) %>%
+  summarise(
+    Nota_Promedio = mean(vote_average, na.rm = TRUE),
+    Contribuciones = n(),                         # filas tras separate_rows
+    Películas_Únicas = n_distinct(.data[[title_col]]),
+    .groups = "drop"
+  ) %>%
+  arrange(desc(Contribuciones)) %>%
+  mutate(
+    pct = Películas_Únicas / total_peliculas,
+    Número = paste0(Contribuciones, " (", percent(pct, accuracy = 0.1), ")")
+  ) %>%
+  select(genres, Nota_Promedio, Número, Películas_Únicas)
+
+# Mostrar tabla
+avg_by_genre_simple
+```

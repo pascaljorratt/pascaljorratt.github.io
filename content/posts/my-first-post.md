@@ -6,7 +6,6 @@ keywords: ["Futbol"]
 tags: ["R"]
 summary: "Ranking de los Campeones de Futbol de Primera División del Futbol Chileno"
 ---
-
 Gráfico de la frecuencia acumulada de los equipos que han sido campeones de la primera división del futbol chileno.
 Puedes ver el ranking [acá](https://pascaljorratt.github.io/futbol_ranking/ranking_campeones_chile.html) para más detalles.
 
