@@ -3,11 +3,13 @@ title: "Chile, país de poetas"
 description: "Análisis de los nombres de vías más frecuentes en Chile"
 date: 2026-04-11
 keywords: ["Vías"]
-tags: ["R"]
+tags: ["R", "Opinión"]
 summary: "Análisis de los nombres de vías más frecuentes en Chile"
 draft: false
 toc: false
 ---
+[📊 Ver Repositorio](https://github.com/pascaljorratt/vias_chile)   [📊 Ver Aplicación](https://pascaljorratt.shinyapps.io/calles/)
+
 Voy al grano. La poetisa Stella Díaz Varín fue elegida entre los 10 personajes más destacados en la historia de La Serena. Sin embargo, en toda la región, no hay ninguna avenida o calle que lleve su nombre. Apenas un pasaje. Aunque no me crea, lo mismo pasa con Jorge Peña Hen, pero ese es otra historia, ¿o no?
 
 En el mismo concurso fue elegido don Francisco de Aguirre. Podrá usted estar en desacuerdo, pero a fin de cuentas le debemos a él que La Serena sea la segunda ciudad más antigua de Chile, habiendo aniquilado a la población indígena para refundar la ciudad. Hoy, una de las avenidas más importantes de la ciudad lleva su nombre. Antes de que el presidente González Videla la renovara, se llamaba La Alameda.
@@ -18,4 +20,5 @@ Me dirá que hay más vías llamadas Gabriela Mistral que Cristóbal Colón. Tie
 
 Chile es país de poetas con avenidas de conquistadores.
 
-![Imagen_de_Calles](/content/posts/Chile_pais_de_poetas/calles.png)
+![GIF de Campeones](/images/vias_chile.png)
+Gráfico de las vías más populares en Chile, considerando sus variaciones (apellidos compuestos, singular/plural, abreviaturas, etc.).

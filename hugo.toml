@@ -3,6 +3,12 @@ locale = 'es-CL'
 title = 'Blog de Análisis y Opinión'
 theme = 'not-much'
 
+[markup]
+  [markup.goldmark]
+    unsafe = false
+  [markup.highlight]
+    style = "monokai"
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
