@@ -1,6 +1,6 @@
 baseURL = 'https://pascaljorratt.github.io/'
 locale = 'es-CL'
-title = 'Blog de Análisis y Opinión'
+title = 'Pascal Jorratt'
 theme = 'not-much'
 
 [markup]

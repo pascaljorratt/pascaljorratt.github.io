@@ -5,6 +5,7 @@ date: 2026-02-14
 keywords: ["Futbol"]
 tags: ["R"]
 summary: "Ranking de los Campeones de Futbol de Primera División del Futbol Chileno"
+image: "/images/vias_chile.png"
 ---
 [📊 Ver Repositorio](https://github.com/pascaljorratt/futbol_ranking) 
 
