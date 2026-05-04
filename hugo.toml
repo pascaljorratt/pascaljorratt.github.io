@@ -5,7 +5,8 @@ theme = 'not-much'
 
 [markup]
   [markup.goldmark]
-    unsafe = false
+    [markup.goldmark.renderer]
+      unsafe = true
   [markup.highlight]
     style = "monokai"
 

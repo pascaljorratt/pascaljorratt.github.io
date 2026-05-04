@@ -8,10 +8,20 @@ draft = false
 
 Bioquímico. Doctor en Neurociencias. Aficionado al ajedrez.
 
-## Sígueme en:
 
-[static/icons/github.svg](https://github.com/pascaljorratt) • [🐦 Twitter](https://twitter.com/tuusuario) • [💼 LinkedIn](https://linkedin.com/in/tuusuario) • [📧 Email](mailto:tu@email.com)
 
-<a href="https://github.com/pascaljorratt" target="_blank" rel="noopener">
-  <img src="content/about/image.png" alt="GitHub" width="24" height="24" style="vertical-align:middle;">
-</a>
+
+
+
+
+
+
+
+
+<div style="display:inline-flex;gap:8px;align-items:center;">
+  <a href="https://github.com/pascaljorratt/"><img src="/icons/github.svg" alt="GitHub" width="25" height="25"></a>
+  <a href="https://www.instagram.com/segundafundacion/"><img src="/icons/instagram.svg" alt="Instagram" width="25" height="25"></a>
+  <a href="..."><img src="/icons/goodreads.svg" alt="Goodreads" width="25" height="25"></a>
+  <a href="https://www.linkedin.com/in/pascal-jorratt/"><img src="/icons/linkedin.svg" alt="LinkedIn" width="25" height="25"></a>
+  <a href="mailto:jorratt@protonmail.com"><img src="/icons/email.svg" alt="Email" width="25" height="25"></a>
+</div>
