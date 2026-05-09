@@ -8,16 +8,6 @@ draft = false
 
 Bioquímico. Doctor en Neurociencias. Aficionado al ajedrez.
 
-
-
-
-
-
-
-
-
-
-
 <div style="display:inline-flex;gap:8px;align-items:center;">
   <a href="https://github.com/pascaljorratt/"><img src="/icons/github.svg" alt="GitHub" width="25" height="25"></a>
   <a href="https://www.instagram.com/segundafundacion/"><img src="/icons/instagram.svg" alt="Instagram" width="25" height="25"></a>

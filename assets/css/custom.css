@@ -26,3 +26,31 @@
   opacity: 1;
   transform: scale(1.1);
 }
+
+.language-selector {
+  text-align: right;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #eee;
+}
+
+.lang-link {
+  text-decoration: none;
+  color: #0066cc;
+  transition: opacity 0.3s;
+}
+
+.lang-link:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+.lang-current {
+  font-weight: bold;
+  color: #333;
+}
+
+.lang-separator {
+  margin: 0 0.5rem;
+  color: #ccc;
+}

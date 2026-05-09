@@ -1,6 +1,6 @@
 baseURL = 'https://pascaljorratt.github.io/'
 locale = 'es-CL'
-title = 'Pascal Jorratt'
+title = 'Blog de análisis y opinión'
 theme = 'not-much'
 
 [markup]
@@ -48,3 +48,14 @@ showPostsSummary = true
     title = "tags"
     url = "/tags"
     weight = 4
+
+defaultContentLanguage = "es"
+
+[languages]
+  [languages.es]
+    languageName = "Español"
+    weight = 1
+    
+  [languages.en]
+    languageName = "English"
+    weight = 2

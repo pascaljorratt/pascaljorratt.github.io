@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Pascal Jorratt</title>
+    <title>Tags on Blog de análisis y opinión</title>
     <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on Pascal Jorratt</description>
+    <description>Recent content in Tags on Blog de análisis y opinión</description>
     <generator>Hugo</generator>
     <language>es-CL</language>
     <lastBuildDate>Sat, 11 Apr 2026 00:00:00 +0000</lastBuildDate>
@@ -27,6 +27,20 @@
       <link>http://localhost:1313/tags/ciencia/</link>
       <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/ciencia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Opinion</title>
+      <link>http://localhost:1313/tags/opinion/</link>
+      <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/opinion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Science</title>
+      <link>http://localhost:1313/tags/science/</link>
+      <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/science/</guid>
       <description></description>
     </item>
   </channel>
