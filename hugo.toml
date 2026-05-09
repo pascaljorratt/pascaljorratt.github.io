@@ -1,7 +1,8 @@
-baseURL = 'https://pascaljorratt.github.io/'
-locale = 'es-CL'
-title = 'Blog de análisis y opinión'
-theme = 'not-much'
+baseURL = "https://pascaljorratt.github.io/"
+locale = "es-CL"
+title = "Blog de análisis y opinión"
+theme = "not-much"
+defaultContentLanguage = "es"
 
 [markup]
   [markup.goldmark]
@@ -12,50 +13,69 @@ theme = 'not-much'
 
 [caches]
   [caches.images]
-    dir = ':cacheDir/images'
+    dir = ":cacheDir/images"
 
 [params]
-theme = "auto"
-palette = "eink"
-showThemeNotice = true
-showPostsSummary = true
-
-[menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "home"
-    title = "Home"
-    url = "/"
-    weight = 1
-  
-  [[menu.main]]
-    identifier = "publicaciones"
-    name = "publicaciones"
-    title = "publicaciones"
-    url = "/posts"
-    weight = 3
-  
-  [[menu.main]]
-    identifier = "sobre mí"
-    name = "sobre mí"
-    title = "sobre mí"
-    url = "/about"
-    weight = 2
-  
-  [[menu.main]]
-    identifier = "tags"
-    name = "tags"
-    title = "tags"
-    url = "/tags"
-    weight = 4
-
-defaultContentLanguage = "es"
+  theme = "auto"
+  palette = "eink"
+  showThemeNotice = true
+  showPostsSummary = true
 
 [languages]
-  [languages.es]
-    languageName = "Español"
-    weight = 1
-    
-  [languages.en]
-    languageName = "English"
-    weight = 2
+[languages.es]
+languageName = "Español"
+contentDir = "content/es"
+weight = 1
+
+[[languages.es.menu.main]]
+identifier = "home"
+name = "Inicio"
+url = "/"
+weight = 1
+
+[[languages.es.menu.main]]
+identifier = "about"
+name = "Sobre mí"
+url = "/about"
+weight = 2
+
+[[languages.es.menu.main]]
+identifier = "posts"
+name = "Publicaciones"
+url = "/posts"
+weight = 3
+
+[[languages.es.menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags"
+weight = 4
+
+[languages.en]
+languageName = "English"
+contentDir = "content/en"
+weight = 2
+
+[[languages.en.menu.main]]
+identifier = "home"
+name = "Home"
+url = "/en/"
+weight = 1
+
+[[languages.en.menu.main]]
+identifier = "about"
+name = "About"
+url = "/en/about"
+weight = 2
+
+[[languages.en.menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/en/posts"
+weight = 3
+
+[[languages.en.menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/en/tags"
+weight = 4

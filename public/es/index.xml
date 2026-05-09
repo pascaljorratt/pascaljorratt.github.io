@@ -16,18 +16,18 @@
       <description>Análisis de los nombres de vías más frecuentes en Chile</description>
     </item>
     <item>
-      <title>Ciencia en Chile: ¿Cuántas publicaciones hacen un buen científico? </title>
+      <title>Ciencia en Chile: ¿Cuántas publicaciones hacen un buen científico?</title>
       <link>http://localhost:1313/es/posts/ciencia_chile/</link>
       <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/es/posts/ciencia_chile/</guid>
       <description>Reflexión sobre la ciencia en Chile</description>
     </item>
     <item>
-      <title>Ranking de los Campeones del Futbol Chileno</title>
-      <link>http://localhost:1313/es/posts/ranking_futbol/</link>
+      <title>Ranking de los Campeones del Fútbol Chileno</title>
+      <link>http://localhost:1313/es/posts/ranking-campeones-chile/</link>
       <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/es/posts/ranking_futbol/</guid>
-      <description>Ranking de los Campeones de Futbol de Primera División del Futbol Chileno</description>
+      <guid>http://localhost:1313/es/posts/ranking-campeones-chile/</guid>
+      <description>Ranking de los Campeones de Fútbol de Primera División</description>
     </item>
   </channel>
 </rss>

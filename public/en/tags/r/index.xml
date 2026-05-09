@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Blog de análisis y opinión</title>
+    <link>http://localhost:1313/en/tags/r/</link>
+    <description>Recent content in R on Blog de análisis y opinión</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 11 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chile, land of poets</title>
+      <link>http://localhost:1313/en/posts/post3/vias_chile/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/post3/vias_chile/</guid>
+      <description>Analysis of the most common street names in Chile</description>
+    </item>
+    <item>
+      <title>Ranking of Chilean Football Champions</title>
+      <link>http://localhost:1313/en/posts/ranking_futbol/</link>
+      <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/ranking_futbol/</guid>
+      <description>Ranking of the Chilean First Division Football Champions</description>
+    </item>
+  </channel>
+</rss>

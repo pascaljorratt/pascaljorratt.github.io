@@ -5,7 +5,7 @@
     <link>http://localhost:1313/en/about/</link>
     <description>Recent content in About on Blog de análisis y opinión</description>
     <generator>Hugo</generator>
-    <language>es-CL</language>
+    <language>en</language>
     <lastBuildDate></lastBuildDate>
     <atom:link href="http://localhost:1313/en/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>

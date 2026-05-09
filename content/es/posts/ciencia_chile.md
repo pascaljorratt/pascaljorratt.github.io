@@ -1,5 +1,5 @@
 ---
-title: "Ciencia en Chile: ¿Cuántas publicaciones hacen un buen científico? "
+title: "Ciencia en Chile: ¿Cuántas publicaciones hacen un buen científico?"
 description: "Reflexión sobre la ciencia en Chile"
 date: 2026-03-21
 keywords: ["Futbol"]
