@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Cine on Blog de análisis y opinión</title>
+		<link>http://localhost:1313/en/tags/cine/</link>
+		<description>Recent content in Cine on Blog de análisis y opinión</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/en/tags/cine/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Películas Chilenas desde 1990</title>
+				<link>http://localhost:1313/en/posts/peliculas_chile/</link>
+				<pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/posts/peliculas_chile/</guid>
+				<description>Análisis de la producción cinematográfica chilena por género y año</description>
+			</item>
+	</channel>
+</rss>

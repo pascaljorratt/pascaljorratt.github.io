@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
@@ -6,26 +7,26 @@
     <lastmod>2026-04-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/"
+                hreflang="es-CL"
+                href="http://localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es-CL"
-                href="http://localhost:1313/"
+                hreflang="en"
+                href="http://localhost:1313/en/"
                 />
   </url><url>
     <loc>http://localhost:1313/posts/post3/vias_chile/</loc>
     <lastmod>2026-04-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/post3/vias_chile/"
+                hreflang="es-CL"
+                href="http://localhost:1313/posts/post3/vias_chile/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es-CL"
-                href="http://localhost:1313/posts/post3/vias_chile/"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/post3/vias_chile/"
                 />
   </url><url>
     <loc>http://localhost:1313/tags/opini%C3%B3n/</loc>
@@ -35,39 +36,39 @@
     <lastmod>2026-04-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/"
+                hreflang="es-CL"
+                href="http://localhost:1313/posts/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es-CL"
-                href="http://localhost:1313/posts/"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/"
                 />
   </url><url>
     <loc>http://localhost:1313/tags/r/</loc>
     <lastmod>2026-04-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/r/"
+                hreflang="es-CL"
+                href="http://localhost:1313/tags/r/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es-CL"
-                href="http://localhost:1313/tags/r/"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/r/"
                 />
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-04-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                hreflang="es-CL"
+                href="http://localhost:1313/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es-CL"
-                href="http://localhost:1313/tags/"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/tags/ciencia/</loc>
@@ -77,51 +78,51 @@
     <lastmod>2026-03-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/ciencia_chile/"
+                hreflang="es-CL"
+                href="http://localhost:1313/posts/ciencia_chile/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es-CL"
-                href="http://localhost:1313/posts/ciencia_chile/"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/ciencia_chile/"
                 />
   </url><url>
     <loc>http://localhost:1313/posts/ranking_futbol/</loc>
     <lastmod>2026-02-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/ranking_futbol/"
+                hreflang="es-CL"
+                href="http://localhost:1313/posts/ranking_futbol/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es-CL"
-                href="http://localhost:1313/posts/ranking_futbol/"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/ranking_futbol/"
                 />
   </url><url>
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2024-12-16T11:30:04+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/about/"
+                hreflang="es-CL"
+                href="http://localhost:1313/about/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es-CL"
-                href="http://localhost:1313/about/"
+                hreflang="en"
+                href="http://localhost:1313/en/about/"
                 />
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                hreflang="es-CL"
+                href="http://localhost:1313/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es-CL"
-                href="http://localhost:1313/categories/"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/"
                 />
   </url>
 </urlset>
