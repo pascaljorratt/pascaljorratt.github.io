@@ -7,6 +7,8 @@ tags: ["R"]
 summary: "Análisis de la producción cinematográfica chilena por género y año"
 toc: true
 ---
+[📊 Ver Repositorio](https://github.com/pascaljorratt/cine_chile) 
+
 El listado de los largometrajes chilenos de ficción se obtuve desde la base de datos de [CineChile](https://cinechile.cl/) y la información de cada una de esas películas, incuyendo calificaciones, duración y géneros, se obtuvo desde [The Movie Database (TMDB)](https://www.themoviedb.org) 
 
 ## Volumen de Producción Anual

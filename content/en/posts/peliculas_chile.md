@@ -7,6 +7,8 @@ tags: ["R"]
 summary: "Analysis of Chilean film production by genre and year"
 toc: true
 ---
+[📊 View Repository](https://github.com/pascaljorratt/cine_chile)  
+
 The list of Chilean fiction feature films was obtained from the database of [CineChile](https://cinechile.cl/) and the information of each of those films, including ratings, duration, and genres, was obtained from [The Movie Database (TMDB)](https://www.themoviedb.org) 
 
 ## Annual Production Volume
